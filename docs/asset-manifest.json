@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e3d2d1f.css",
+    "main.js": "/static/js/main.9cd66b72.js",
+    "static/js/787.f3b494aa.chunk.js": "/static/js/787.f3b494aa.chunk.js",
+    "static/media/motorista.png": "/static/media/motorista.7db60e20408c8d9965f4.png",
+    "static/media/apontamento.png": "/static/media/apontamento.71774ae21c9d780d1741.png",
+    "static/media/logo.png": "/static/media/logo.113d1eb24cf2238b0863.png",
+    "index.html": "/index.html",
+    "main.2e3d2d1f.css.map": "/static/css/main.2e3d2d1f.css.map",
+    "main.9cd66b72.js.map": "/static/js/main.9cd66b72.js.map",
+    "787.f3b494aa.chunk.js.map": "/static/js/787.f3b494aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e3d2d1f.css",
+    "static/js/main.9cd66b72.js"
+  ]
+}

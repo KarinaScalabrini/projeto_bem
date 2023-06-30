@@ -1,6 +1,8 @@
 .MainTop{
     width:100%;
-    height:90vh;
+    /* height:90vh; */
+    padding-top:4%;
+    padding-bottom:4%;
     display:flex;
     flex-direction:row;
     justify-content:center;
@@ -46,8 +48,10 @@
     background-repeat:no-repeat;
     width:95%;
     max-width:484px;
+    min-width:470px;
     height:100%;
     max-height:482px;
+    min-height:460px;
     border-radius:40px;
     box-shadow: 22px 22px 0px -4px rgba(70, 72, 73, 1);
     margin:auto;
@@ -68,11 +72,21 @@
         font-size:20px;
     
     }
+    .imagemMotorista{
+        width:90%;
+        max-width:384px;
+        min-width:310px;
+        height:85%;
+        max-height:382px;
+        min-height:300px;
+    }
 }
 
 @media screen and (min-width: 601px) and (max-width: 901px) {
     .MainTop{
-        height:70vh;
+        /* height:70vh; */
+        padding-top:5%;
+        padding-bottom:5%;
     
     }
     .MainTop >div:nth-child(1) > p{
@@ -89,13 +103,20 @@
     }
     .imagemMotorista{
         background-position:30% 90%;
-        width:100%;
         box-shadow: 29px 29px 3px -13px rgba(70, 72, 73, 1);
+        width:90%;
+        max-width:384px;
+        min-width:300px;
+        height:85%;
+        max-height:384px;
+        min-height:280px;
     }
 }
 @media screen and (max-width: 600px) {
     .MainTop{
-        min-height:100vh;
+        /* min-height:100vh; */
+        padding-top:10%;
+        padding-bottom:10%;
         flex-direction:column-reverse;
     
     }
@@ -136,6 +157,10 @@
         width:85%;
         height:85%;
         border-radius:30px;
+        max-width:484px;
+        min-width:200px;
+        max-height:482px;
+        min-height:200px;
     }
 }
   
